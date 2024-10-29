@@ -1,8 +1,14 @@
-// Imported the library to use it for input/output operation. 
+// Imported the library to use it for input/output functionalities. 
 import 'dart:io'; 
 
-// Function that performs arithmetic operations such as addition, subtraction, multiplication, and division.
+
 void basicCalculator(String operation, double numericValue1, double numericValue2) { 
+/*
+  Defined a function called basicCalculator that takes three parameters: operation, arithematic operatores to perform calculation
+                                                                         numericValue1, the first number involved in the operation
+                                                                         numericValue2, the first number involved in the operation
+  The function is used to perform arithmetic calculation such as addition, subtraction, division and multiplication.
+*/
 
   double result; // Variable to store the result of the operation
 
